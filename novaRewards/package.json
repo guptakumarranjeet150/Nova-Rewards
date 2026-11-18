@@ -22,7 +22,7 @@
     "lint:fix": "npm run lint:fix -w backend && npm run lint:fix -w frontend",
     "format": "npm run format -w frontend",
     "format:check": "npm run format:check -w frontend",
-    "build": "node init && npm run build -w frontend",
+    "build": "npm run build -w frontend",
     "setup:new": "node scripts/setup.js",
     "setup": "node scripts/setup.js --use-env",
     "migrate": "node database/migrate.js",
